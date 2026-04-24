@@ -20,7 +20,7 @@ class Attendee(models.Model):
     def get_full_name():
         return Attendee.first_name + Attendee.last_name
     
-    
+   
         
     
     
